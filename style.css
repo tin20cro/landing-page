@@ -1,3 +1,61 @@
 body {
     background-color: rgb(243, 242, 242);
 }
+
+.header {
+    display: flex;
+    height: 150px;
+    width: auto;
+    background-color: #1f2937;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo-img {
+    max-width: 80%;
+    max-height: 80%;
+    display: inline;
+}
+
+.navlist {
+
+    display: inline-block;
+    color: #e3b261;
+    font-size: 2.5em;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items {
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.nav-items::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transition: width 0.3s;
+}
+
+.nav-items:hover::after {
+    width: 100%;
+}
+
+
+.nav-items:hover {
+    color: rgb(243, 242, 242);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
