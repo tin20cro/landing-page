@@ -248,12 +248,12 @@ h1 {
     background-color: #1f2937da;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    height: 30vw;
+    height: 25vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
-    padding: 1em 13em;
+    padding: 1em 16em;
 }
 
 .info em {
@@ -272,13 +272,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5em 13em;
+    padding: 4em 11em;
     height: 10vw;
 }
 
 .sign-up-container {
     display: flex;
-    width: 100%;
+    width: 60%;
     height: auto;
     justify-content: space-around;
     align-items: center;
@@ -301,6 +301,16 @@ h1 {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #22262c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2em;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
