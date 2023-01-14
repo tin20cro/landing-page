@@ -245,7 +245,7 @@ h1 {
 
 .info {
     color: #ffffff;
-    background-color: #1f2937;
+    background-color: #1f2937da;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     height: 30vw;
@@ -264,6 +264,43 @@ h1 {
     align-self: flex-end;
     font-size: 25px;
     font-weight: bolder;
+}
+
+.sign-up {
+    color: #ffffff;
+    background-color: #e3b261;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+    height: 10vw;
+}
+
+.sign-up-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 3em;
+    border-radius: 10px;
+}
+
+.sign-up-left {
+    display: block;
+}
+
+.sign-up-left strong {
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+.sign-up-left p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
