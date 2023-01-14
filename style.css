@@ -1,5 +1,6 @@
 body {
     background-color: rgb(243, 242, 242);
+    margin: 0;
 }
 
 .header {
@@ -174,6 +175,10 @@ h1 {
 
 }
 
+.container {
+    width: 100%;
+}
+
 .motw {
     display: flex;
     flex-direction: row;
@@ -184,7 +189,6 @@ h1 {
     width: auto;
     font-family: 'Bebas Neue', Arial, sans-serif;
     font-weight: bold;
-    letter-spacing: 0.04em;
     font-size: 50px;
     background-color: #161e29;
 }
@@ -218,10 +222,11 @@ h1 {
 .motw-container {
     height: 330px;
     width: 250px;
+    color: transparent;
+    transition: 0.5s ease;
 }
 
 .motw-container p {
-    color: #ffffff;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -232,6 +237,33 @@ h1 {
         0 0 10px #e3b261,
         0 0 15px #e3b261,
         0 0 15px #e3b261;
+}
+
+.motw-container:hover {
+    color: #ffffff
+}
+
+.info {
+    color: #ffffff;
+    background-color: #1f2937;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 1em 13em;
+}
+
+.info em {
+    font-size: 35px;
+}
+
+.info p {
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
