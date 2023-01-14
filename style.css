@@ -4,7 +4,7 @@ body {
 
 .header {
     display: flex;
-    height: 150px;
+    height: 7vw;
     width: auto;
     background-color: #1f2937;
     margin: 0 auto;
@@ -14,11 +14,15 @@ body {
     font-family: 'Bebas Neue', Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 2px solid #e3b1615b;
 }
 
 .logo-img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 100%;
+    max-height: 100%;
     display: inline;
     cursor: pointer;
 }
@@ -61,18 +65,19 @@ body {
 
 .header-text {
     display: flex;
-    height: 400px;
+    height: 23vw;
     width: auto;
     background-color: #1f2937;
     margin: auto;
+    padding-top: 3vw;
 }
 
 h1 {
     color: white;
-    font-size: 3em;
+    font-size: 4em;
     font-family: 'Bebas Neue', Arial, sans-serif;
     font-weight: bold;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     justify-content: space-between;
     align-items: center;
     width: auto;
@@ -171,7 +176,62 @@ h1 {
 
 .motw {
     display: flex;
+    flex-direction: row;
     text-align: center;
+    align-items: baseline;
+    justify-content: space-evenly;
+    height: 30vw;
+    width: auto;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    font-size: 50px;
+    background-color: #161e29;
+}
+
+.motw-txt {
+    color: #e3b261;
+    width: 100%;
+    background-color: #161e29;
+    text-align: center;
+    height: 10%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    font-size: 50px;
+    justify-content: center;
+    display: inline-block;
+}
+
+.motw-img {
+    border: none;
+    border-radius: 4px;
+    flex: 1;
+    max-width: 250px;
+    height: 250px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.motw-container {
+    height: 330px;
+    width: 250px;
+}
+
+.motw-container p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.motw-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #e3b261,
+        0 0 10px #e3b261,
+        0 0 15px #e3b261,
+        0 0 15px #e3b261;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
